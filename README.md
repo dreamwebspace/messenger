@@ -1,1 +1,1 @@
-# messenger
+# messenger/chat in javascript + firebase
