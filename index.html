@@ -5,20 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <title>Ninja Chat</title>
+  <title>Czat</title>
 </head>
 <body>
 
   <!-- container & title -->
   <div class="container my-4">
-    <h1 class="my-4 text-center">Ninja Chat</h1>
+    <h1 class="my-4 text-center">Czat</h1>
     <!-- buttons for chatrooms -->
     <div class="chat-rooms mb-3 text-center">
-      <div class="my-2">Choose a chatroom:</div>
-      <button class="btn" id="general">#general</button>
-      <button class="btn" id="gaming">#gaming</button>
-      <button class="btn" id="music">#music</button>
-      <button class="btn" id="ninjas">#ninjas</button>
+      
+      <div class="my-2">Zmień grupę:</div>
+      <button class="btn" id="gaming">cypr</button>
+      <button class="btn" id="music">muzyka</button>
+      <button class="btn" id="weather">pogoda</button>
     </div>
     <!-- chat list / window -->
     <div class="chat-window">
@@ -28,11 +28,11 @@
     <form class="new-chat my-3">
       <div class="input-group">
         <div class="input-group-prepend">
-          <div class="input-group-text">Your message:</div>
+          <div class="input-group-text">wiadomość:</div>
         </div>
         <input type="text" id="message" class="form-control" required>
         <div class="input-group-append">
-          <input type="submit" class="btn" value="send">
+          <input type="submit" class="btn" value="wyślij">
         </div>
       </div>
     </form>
@@ -40,11 +40,11 @@
     <form class="new-name my-3">
       <div class="input-group">
         <div class="input-group-prepend">
-          <div class="input-group-text">Update name:</div>
+          <div class="input-group-text">imię:</div>
         </div>
         <input type="text" id="name" class="form-control" required>
         <div class="input-group-append">
-          <input type="submit" class="btn" value="update">
+          <input type="submit" class="btn" value="zmień">
         </div>
       </div>
       <div class="update-mssg text-center my-2"></div>

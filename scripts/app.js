@@ -23,7 +23,7 @@ newNameForm.addEventListener('submit', e => {
   // reset the form
   newNameForm.reset();
   // show then hide the update message
-  updateMssg.innerText = `Your name was updated to ${newName}`;
+  updateMssg.innerText = `Twoje imię to ${newName}`;
   setTimeout(() => updateMssg.innerText = '', 3000);
 });
 
@@ -37,7 +37,7 @@ rooms.addEventListener('click', e => {
 });
 
 // check local storage for name
-const username = localStorage.username ? localStorage.username : 'anon';
+const username = localStorage.username ? localStorage.username : 'Anonim';
 
 // class instances
 const chatUI = new ChatUI(chatList);
